@@ -9,7 +9,7 @@ services:
       dockerfile: Dockerfile
     image: opti-backend
     ports:
-      - 4000:3000
+      - 4000:4000
     env_file:
       - .env
   frontend:
